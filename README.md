@@ -1,2 +1,0 @@
-# Spylr
- Static Website
