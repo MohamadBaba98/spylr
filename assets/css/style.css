@@ -403,7 +403,7 @@ h6 {
 }
 #hero_feature {
   width: 100%;
-  height: 100vh;
+  
 
   /* background: linear-gradient(45deg, rgba(255, 255, 255, 1), rgba(91, 110, 161, 0.8)); */
   background-size: cover;
@@ -493,6 +493,10 @@ h6 {
   #hero {
     background: linear-gradient(45deg, rgba(255, 255, 255, 1), rgba(91, 110, 161, 0.5));
     height: 100vh;
+    
+  }
+  .phoneContainer{
+    margin-top:100px;
   }
   .align-items-center {
     -ms-flex-align: flex-start!important;
@@ -740,7 +744,28 @@ section {
   border: 2px solid #b20969;
 
 }
+.nav-pills #callRecording-tab.nav-link.active, .nav-pills .show > .nav-link {
+  color: #e361Af;
+  border: 2px solid #e361Af;
+
+}
  
+.nav-pills #renewAnytime-tab.nav-link.active, .nav-pills .show > .nav-link {
+  color: #4233ff;
+  border: 2px solid #4233ff;
+
+}
+.nav-pills #remoteUpgrade-tab.nav-link.active, .nav-pills .show > .nav-link {
+  color: #29cc61;
+  border: 2px solid #29cc61;
+
+
+}
+.nav-pills #remoteUpdate-tab.nav-link.active, .nav-pills .show > .nav-link {
+  color: #ff5828;
+  border: 2px solid #ff5828;
+
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
